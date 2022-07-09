@@ -20,6 +20,6 @@ Same as Python's len() function.
 
 - Returns: The length (count) of an Collection-conformant object
 **/
-func len<T: Collection>(_ object: T) -> Int {
+public func len<T: Collection>(_ object: T) -> Int {
     return object.count
 }
